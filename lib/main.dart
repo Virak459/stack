@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'EX/ex1.dart';
 import 'divinder.dart';
 import 'flex/Expanded.dart';
 import 'flex/Expanded1.dart';
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const exercise1(),
+      home: const ex1(),
     );
   }
 }

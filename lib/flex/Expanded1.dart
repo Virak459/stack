@@ -13,8 +13,8 @@ class exercise1 extends StatelessWidget {
         margin: EdgeInsets.all(10),
         child: StaggeredGrid.count(
           crossAxisCount: 4,
-          mainAxisSpacing: 4,
-          crossAxisSpacing: 5,
+          mainAxisSpacing: 9,
+          crossAxisSpacing: 9,
           children: [
             StaggeredGridTile.count(
               crossAxisCellCount: 2,
@@ -44,8 +44,8 @@ class exercise1 extends StatelessWidget {
               child: Container(
                 child: StaggeredGrid.count(
                   crossAxisCount: 4,
-                  mainAxisSpacing: 4,
-                  crossAxisSpacing: 5,
+                  mainAxisSpacing: 9,
+                  crossAxisSpacing: 9,
                   children: [
                     StaggeredGridTile.count(
                       crossAxisCellCount: 2,
