@@ -51,7 +51,7 @@ class ex1 extends StatelessWidget {
                         children: [
                           Container(
                             child: Stack(
-                              overflow: Overflow.visible,
+                              clipBehavior: Clip.none,
                               children: [
                                 Positioned(
                                     child: Container(

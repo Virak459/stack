@@ -25,7 +25,7 @@ class stack1 extends StatelessWidget {
               height: 170,
               color: Colors.pink[100],
               child: Stack(
-                  overflow: Overflow.visible,
+                  clipBehavior: Clip.none,
                   alignment: AlignmentDirectional.topCenter,
                   children: [
                     Positioned(

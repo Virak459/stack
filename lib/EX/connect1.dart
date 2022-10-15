@@ -17,8 +17,8 @@ class cn extends StatelessWidget {
             child: Column(
               children: [
                 Stack(
+                  clipBehavior: Clip.none,
                   fit: StackFit.passthrough,
-                  overflow: Overflow.visible,
                   children: [
                     const Positioned(
                       child: GFImageOverlay(
@@ -176,10 +176,10 @@ class cn extends StatelessWidget {
                       margin: EdgeInsets.only(top: 250, left: 280),
                       child: GFButton(
                         onPressed: () {
-                          Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                  builder: (context) => const cu2()));
+                          // Navigator.push(
+                          //     context,
+                          //     MaterialPageRoute(
+                          //         builder: (context) => const cu2()));
                         },
                         text: "Buy now",
                         shape: GFButtonShape.standard,
